@@ -4,9 +4,12 @@ A population dynamics model accounting for the individual process of resource fo
 This is a GNU R program with 2 scripts loading 4 source files containing functions.
 
 
-1) The first script is gen_landscape.R which generates a landscape from specified landscape metrics with a genetic algorithm\n
-      the generated landscape will be plotted in vectorial and raster format in the output/ folder\r
-      the landscape object is landscape.res in which you can find \\      
+1) The first script is gen_landscape.R which generates a landscape from specified landscape metrics with a genetic algorithm
+
+      the generated landscape will be plotted in vectorial and raster format in the output/ folder
+      
+      the landscape object is landscape.res in which you can find
+      
           landscape.res$sldf (spatial lines data frame) of the linear resource presence/absence
           
           landscape.res$spdf (spatial polygons data frame) of the polygonal resource presence/absence
