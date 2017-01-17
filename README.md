@@ -35,3 +35,22 @@ This is a GNU R program with 2 scripts loading 4 source files containing functio
             
             iv) record of the temporal dynamics for both stages
             
+
+Required R packages:
+
+ggplot2
+raster
+grid
+gridExtra
+limSolve
+GGally
+nloptr
+stats
+Matrix
+abind
+plyr
+compiler
+spatstat
+maptools
+deldir
+rgeos
