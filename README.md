@@ -1,10 +1,11 @@
 # dynapop-oft
+
 A population dynamics model accounting for the individual process of resource foraging on heterogeneous agricultural landscapes.
 
 This is a GNU R program with 2 scripts loading 4 source files containing functions. Both script need to be run sequentially, gen_landscape.R before sim_population.R.
 
 
-1) The first script is gen_landscape.R which generates a landscape from specified landscape metrics with a genetic algorithm
+##1) The first script is gen_landscape.R which generates a landscape from specified landscape metrics with a genetic algorithm
 
       the generated landscape will be plotted in vectorial and raster format in the output/ folder
       
@@ -17,7 +18,7 @@ This is a GNU R program with 2 scripts loading 4 source files containing functio
       the landscape is converted into a raster/matrix called r.map which is used as substrate in the population dynamics model
       
       
-2) The second script is sim_population.R which simulates a population dynamics on the previously generated landscape raster/matrix
+###2) The second script is sim_population.R which simulates a population dynamics on the previously generated landscape raster/matrix
 
       the population demographic and energetic parameters are first fitted
       
@@ -36,7 +37,7 @@ This is a GNU R program with 2 scripts loading 4 source files containing functio
             iv) record of the temporal dynamics for both stages
             
 
-Required R packages:
+##Required R packages:
 
 ggplot2
 raster
