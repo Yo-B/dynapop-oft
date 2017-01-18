@@ -54,3 +54,5 @@ spatstat
 maptools
 deldir
 rgeos
+
+Running smoothly with R version 3.3.2 (2016-10-31) -- "Sincere Pumpkin Patch"
