@@ -21,7 +21,7 @@
 # ---------------------------------------------
 #   simulate one season of population dynamics
 #     on the r.map landscape resulting from
-#       script oneLS.R
+#       script gen_ladscape.R
 # _____________________________________________
 
 
