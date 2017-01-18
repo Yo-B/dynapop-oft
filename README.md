@@ -14,14 +14,14 @@ This is a GNU R program with 2 scripts loading 4 source files containing functio
       
       
 2. The second script is sim_population.R which simulates a population dynamics on the previously generated landscape raster/matrix  
-* the population demographic and energetic parameters are first fitted  
-* then the spatial simulation can be done  
-* the resulting object "simulation" contains densities for young and adult stages for all the time and space discretisations  
-* while computing it can display status at each time step as well as 4 plots:  
-  a. the summed densities (over x,y) for each energy discretisation  
-  b. the densities over x,y of the young stage  
-  c. the densities over x,y of the adult stage  
-  d. record of the temporal dynamics for both stages
+     * the population demographic and energetic parameters are first fitted  
+     * then the spatial simulation can be done  
+     * the resulting object "simulation" contains densities for young and adult stages for all the time and space discretisations  
+     * while computing it can display status at each time step as well as 4 plots:  
+          a. the summed densities (over x,y) for each energy discretisation  
+          b. the densities over x,y of the young stage  
+          c. the densities over x,y of the adult stage  
+          d. record of the temporal dynamics for both stages
             
 
 ##Required R packages:
