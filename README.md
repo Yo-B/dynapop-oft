@@ -2,7 +2,7 @@
 
 A population dynamics model accounting for the individual process of resource foraging on heterogeneous agricultural landscapes.
 
-This is a GNU R program with 2 scripts loading 4 source files containing functions. Both script need to be run sequentially, __gen_landscape.R__ before __sim_population.R__.
+This is a GNU R program with 2 scripts loading 4 source files containing functions. Both scripts need to be run sequentially, __gen_landscape.R__ before __sim_population.R__.
 
 
 1. The first script is __gen_landscape.R__ which generates a landscape from specified landscape metrics with a genetic algorithm  
