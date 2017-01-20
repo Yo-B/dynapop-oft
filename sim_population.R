@@ -2,7 +2,7 @@
 #       A population dynamics model accounting for the individual process 
 #               of resource foraging on heterogeneous agricultural landscapes.
 #     Copyright (C) 2017  Yoann BOURHIS at bourhis.yoann@gmail.com
-#       see the associated publication at ... for details
+#       see the corresponding publication at ... for details
 # 
 #     This program is free software: you can redistribute it and/or modify
 #     it under the terms of the GNU General Public License as published by
@@ -69,8 +69,8 @@ fitted <- demoParEst(data=demo.sets[[1]],
 print(fitted)
 
 # convert par names to fit FP or adv xp.
-fitted['g.base'] <- fitted['g.base'] + fitted['g.mvt.dif']
-fitted['g.mvt'] <- fitted['g.mvt.adv']
+fitted[['g.base']] <- fitted[['g.base']] + fitted[['g.mvt.dif']]
+fitted[['g.mvt']] <- fitted[['g.mvt.adv']]
 print(t(fitted))
 
 parametersDF <- data.frame(matrix(fitted, nrow=1))
