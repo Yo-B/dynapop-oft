@@ -69,8 +69,8 @@ fitted <- demoParEst(data=demo.sets[[1]],
 print(fitted)
 
 # convert par names to fit FP or adv xp.
-fitted['g.base'] <- fitted['g.base'] + fitted['g.mvt.dif']
-fitted['g.mvt'] <- fitted['g.mvt.adv']
+fitted[['g.base']] <- fitted[['g.base']] + fitted[['g.mvt.dif']]
+fitted[['g.mvt']] <- fitted[['g.mvt.adv']]
 print(t(fitted))
 
 parametersDF <- data.frame(matrix(fitted, nrow=1))
