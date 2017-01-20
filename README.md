@@ -6,10 +6,10 @@ This is a GNU R program with 2 scripts loading 4 source files containing functio
 
 
 1. The first script is __gen_landscape.R__ which generates a landscape from specified landscape metrics with a genetic algorithm  
-      * the generated landscape will be plotted in vectorial and raster format in the output/ folder  
-      * the landscape object is landscape.res in which you can find  
-      * _landscape.res$sldf_ (spatial lines data frame) of the linear resource presence/absence  
-      * _landscape.res$spdf_ (spatial polygons data frame) of the polygonal resource presence/absence  
+      * the generated landscape will be plotted in vectorial and raster format in the _output/_ folder  
+      * the landscape object is _landscape.res_ in which you can find  
+          * _landscape.res$sldf_ (spatial lines data frame) of the linear resource presence/absence  
+          * _landscape.res$spdf_ (spatial polygons data frame) of the polygonal resource presence/absence  
       * the landscape is converted into a raster/matrix called _r.map_ which is used as substrate in the population dynamics model  
       
       
@@ -17,7 +17,7 @@ This is a GNU R program with 2 scripts loading 4 source files containing functio
      * the population demographic and energetic parameters are first fitted  
      * then the spatial simulation can be done  
      * the resulting object _simulation_ contains densities for young and adult stages for all the time and space discretisations  
-     * while computing it can display status at each time step as well as 4 plots:  
+     * during computation, status will be displayed at each time step, as well as 4 plots:  
           a. the summed densities (over _x,y_) for each energy discretisation  
           b. the densities over _x,y_ of the young stage  
           c. the densities over _x,y_ of the adult stage  
@@ -26,21 +26,21 @@ This is a GNU R program with 2 scripts loading 4 source files containing functio
 
 ###Required R packages:
 
-_ggplot2
-raster
-grid
-gridExtra
-limSolve
-GGally
-nloptr
-stats
-Matrix
-abind
-plyr
-compiler
-spatstat
-maptools
-deldir
+_ggplot2,
+raster,
+grid,
+gridExtra,
+limSolve,
+GGally,
+nloptr,
+stats,
+Matrix,
+abind,
+plyr,
+compiler,
+spatstat,
+maptools,
+deldir,
 rgeos_
 
 Running smoothly with R version 3.3.2 (2016-10-31) -- "_Sincere Pumpkin Patch_"
