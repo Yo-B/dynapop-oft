@@ -24,7 +24,7 @@ This is a GNU R program with 2 scripts loading 4 source files containing functio
           d. record of the temporal dynamics for both stages
             
 
-###Required R packages:
+### Required R packages:
 
 _ggplot2,
 raster,
