@@ -1,5 +1,7 @@
 # dynapop-oft
 
+The compagnon paper to this repository can be found in Ecological Modelling: https://www.sciencedirect.com/science/article/pii/S0304380016302885
+
 A population dynamics model accounting for the individual process of resource foraging on heterogeneous agricultural landscapes.
 
 This is a GNU R program with 2 scripts loading 4 source files containing functions. Both scripts need to be run sequentially, __gen_landscape.R__ before __sim_population.R__.
