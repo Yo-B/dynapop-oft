@@ -2,7 +2,8 @@
 #       A population dynamics model accounting for the individual process 
 #               of resource foraging on heterogeneous agricultural landscapes.
 #     Copyright (C) 2017  Yoann BOURHIS at bourhis.yoann@gmail.com
-#       see the corresponding publication at ... for details
+#       see the corresponding publication for details at
+#  https://www.sciencedirect.com/science/article/pii/S0304380016302885?via%3Dihub
 # 
 #     This program is free software: you can redistribute it and/or modify
 #     it under the terms of the GNU General Public License as published by
