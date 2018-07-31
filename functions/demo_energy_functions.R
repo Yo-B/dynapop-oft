@@ -24,10 +24,10 @@
 # _____________________________________________________________________
 
 
-require(limSolve)
-require(ggplot2)
-require(GGally)
-require(nloptr)
+library(limSolve)
+library(ggplot2)
+library(GGally)
+library(nloptr)
 
 
 #==================================================================================
