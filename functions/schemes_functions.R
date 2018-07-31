@@ -25,13 +25,13 @@
 
 
 
-require(stats)
-require(raster)
-require(Matrix)
-require(abind)
-require(plyr)
-require(compiler)
-require(spatstat)
+library(stats)
+library(raster)
+library(Matrix)
+library(abind)
+library(plyr)
+library(compiler)
+library(spatstat)
 
 
 #=============================================================
