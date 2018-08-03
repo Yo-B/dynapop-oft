@@ -1,6 +1,6 @@
 # dynapop-oft
 
-The compagnon paper to this repository can be found in [Ecological Modelling](https://www.sciencedirect.com/science/article/pii/S0304380016302885).
+The companion paper to this repository can be found in [Ecological Modelling](https://www.sciencedirect.com/science/article/pii/S0304380016302885).
 
 A population dynamics model accounting for the individual process of resource foraging on heterogeneous agricultural landscapes.
 
